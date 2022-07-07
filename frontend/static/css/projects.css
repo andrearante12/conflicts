@@ -1,0 +1,55 @@
+.blue {
+    background: #e9fbfe;
+}
+
+.date {
+    font-size: 12px;
+    color: #9493ae;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.projects{
+    margin-top: 1rem;
+}
+
+.project-row {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    list-style: none;
+}
+
+.project-item {
+    flex-grow: 1;
+
+    border-radius: 35px;
+    padding: 0.8rem 1.5rem 1.5rem 0.3rem;
+    margin: 0.8rem;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.pink {
+    background: #fee2f2;
+}   
+
+.purple {
+    background: #eae8fd;
+}
+
+.project-title {
+    font-size: 30px;
+}
+
+.yellow {
+    background: #fdeecc;
+}

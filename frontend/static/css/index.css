@@ -25,7 +25,6 @@ body {
 }
 
 main {
-    overflow-y: auto;
     background-color: white;
     border-radius: 25px;
     height: 75vh;
@@ -34,4 +33,6 @@ main {
     padding: 1rem;
     margin: 1rem;
     margin-left: 0;
+
+    display: flex;
 }

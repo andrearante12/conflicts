@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-
 import { IoIosRadioButtonOff, IoIosRadioButtonOn } from "react-icons/io";
 
 import Projects from "./Projects";
-import Calendar from "./Calendar";
+import CalendarSection from "./Calendar";
 import { tasks } from "../../static/tasks";
 
 const Recent = () => {
-  const [activity, setActivity] = useState(tasks);
+  const [activity, setActivity] = useState(tasks.slice(0, 4));
+  const [value, onChange] = useState(new Date());
 
   const handleClick = (event) => {
     console.log("clicked");
@@ -47,9 +47,7 @@ const Recent = () => {
         </ul>
         <Projects />
       </div>
-      <div>
-        <Calendar />
-      </div>
+      <CalendarSection />
     </main>
   );
 };

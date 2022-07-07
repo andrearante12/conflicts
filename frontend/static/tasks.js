@@ -14,4 +14,14 @@ export const tasks = [
     name: "Setup Calendar",
     completed: false,
   },
+  {
+    id: 3,
+    name: "Full screen view",
+    completed: false,
+  },
+  {
+    id: 4,
+    name: "Learn to cook",
+    completed: false,
+  },
 ];

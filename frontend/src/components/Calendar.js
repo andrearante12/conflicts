@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import Calendar from "react-calendar";
 
-const Calendar = () => {
-  return <h1>Calendar!</h1>;
+const CalendarSection = () => {
+  const [value, setValue] = useState(new Date());
+
+  const onChange = (date) => {
+    setValue(date);
+  };
+
+  return (
+    <div className="calendar">
+      <Calendar value={value} onChange={onChange} />
+      {console.log(value)}
+    </div>
+  );
 };
 
-export default Calendar;
+export default CalendarSection;
