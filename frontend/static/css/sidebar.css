@@ -1,0 +1,38 @@
+aside {
+    margin-top: 2rem;
+    background: #3c30a6;
+    flex: 1 0 10%;
+    padding: 1rem 0 1rem 0;
+    width: 10rem;
+}
+
+li.sidebar {
+    color: #fff;
+    font-size: 20px;
+    padding: 0.7rem 0.7rem 0.7rem 1rem;
+}
+
+li.sidebar:hover {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+    color: #3c30a6;
+}
+
+ul.sidebar {
+    list-style: none;
+    padding-left: 0;
+    height: 25vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    width: 15vw;
+}
+
+

@@ -1,0 +1,56 @@
+.greeting {
+    flex-grow: 1;
+}
+
+input {
+    width: 15rem;
+    height: 3rem;
+}
+
+.logo {
+    flex-shrink: 1;
+    margin-right: 6rem;
+}
+
+nav {
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 100vw;
+    height: 4rem;
+
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.message {
+    font-size: 15px;
+    color: gainsboro;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.searchbar {
+    width: 100%;
+    max-width: 300px;
+    display: inline-flex;
+}
+
+.searchbar-input {
+    flex-grow: 1;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #009879;
+    border-radius: 5px;
+    background: #f4faf9;
+    transition: background 0.25s, box-shadow 0.25s;
+}
+
+.searchbar-input::placeholder {
+    font-size: 15px;
+}
