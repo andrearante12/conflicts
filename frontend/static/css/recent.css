@@ -7,15 +7,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 125%;
 
     background: #f2f3fb;
     border: none;
+
 }
 
 button:hover, button:focus {
     outline: none;
   }
+
+.inactive {
+    background: white !important;
+    color: #918f9c;
+}
 
 li.tasks {
     border: 2px solid #f2f3fb;
@@ -49,6 +55,29 @@ li.tasks:hover{
     font-weight: bold;
     margin-bottom: 1rem;
 }
+
+.scroll {
+    margin:4px, 4px;
+    padding: 4px;
+    width: 800px;
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+/* .task-text {
+    display: flex;
+    flex-direction: column;
+} */
+
+.task-due-date {
+    font-size: 15px;
+    margin: 0 0 0 1rem;
+
+    max-width: 2rem;
+}
+
 ul.tasks {
     list-style-type: none;
     margin: 0;
@@ -56,7 +85,7 @@ ul.tasks {
 }
 
 .wrapper_inner {
-    min-width: 50%;
+    min-width: 60%;
     margin-left: 0.5rem;
     margin: 0.7rem 0rem 0rem 0.7rem; 
 }

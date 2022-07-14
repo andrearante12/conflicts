@@ -1,7 +1,10 @@
 
 .calendar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+
+    height: 30rem;
 }
 
 .calendar button {
@@ -24,6 +27,7 @@
     background: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.125em;
+    margin: 0 auto;
 }
 
 .react-calendar__navigation {

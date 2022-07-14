@@ -1,3 +1,16 @@
+.active {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+    
+}
+
+.active button {
+    background: white !important;
+    border: none;
+    color: #3c30a6 !important;
+}
+
 aside {
     margin-top: 2rem;
     background: #3c30a6;
@@ -6,17 +19,11 @@ aside {
     width: 10rem;
 }
 
+
 li.sidebar {
     color: #fff;
     font-size: 20px;
     padding: 0.7rem 0.7rem 0.7rem 1rem;
-}
-
-li.sidebar:hover {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-color: white;
-    color: #3c30a6;
 }
 
 ul.sidebar {
@@ -29,10 +36,14 @@ ul.sidebar {
     justify-content: space-between;
 }
 
+.sidebar button {
+    background: #3c30a6;
+    border: none;
+    color: white;
+}
+
 .wrapper {
     display: flex;
     height: 100%;
     width: 15vw;
 }
-
-

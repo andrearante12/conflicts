@@ -1,0 +1,156 @@
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-button {
+    background: none;
+    border: none;
+}
+
+.large-text-field {
+    width: 15rem;
+    height: 5rem;
+}
+
+.resources-btn {
+    margin-top: 0.5rem;
+    background-color: #fd3899;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.roadmap {
+    display: flex;
+    flex-direction: row;
+
+    height: 100%;
+}
+
+.roadmap-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.roadmap-title {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.roadmap-title-edit {
+    outline: none;
+    border: none;
+    background: white;
+    font-size: 26px;
+}
+.todo-edit {
+    outline: none;
+    border: none;
+    background: white;
+    color: #989da7;
+    font-size: 1rem;
+}
+
+.roadmap-title h1 { margin: 1rem; }
+.roadmap-title h3 { margin: 1rem; }
+
+.stage {
+    flex-grow: 1;
+    height: 94%;
+    max-width: 25%;
+    
+}
+
+.stage-header {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stage-header h3 {
+    background: white !important;
+}
+
+.one { border-left: 2px solid #ff9999; }
+.two { border-left: 2px solid #ffff99; }
+.three { border-left: 2px solid #99ff99; }
+.four { border-left: 2px solid #9999ff; }
+
+/* .one h2 { color: #ff9999; }
+.two h2 { color: #ffff99; }
+.three h2 { color: #99ff99; }
+.four h2 { color: #9999ff; } */
+
+.one div h3 { background: #ff9999; }
+.two div h3 { background: #ffff99; }
+.three div h3 { background: #99ff99; }
+.four div h3 { background: #9999ff; }
+
+.title-textarea {
+    resize: none;
+    white-space: nowrap;
+    overflow-x: scroll; /* or hidden */
+    font-size: 2rem !important;
+  }
+
+.todo-outer-div {
+    width: 80%;
+}
+
+.todo-outer-div h3 {   
+    padding: 0.5rem;
+    padding-left: 2rem;
+    
+    font-size: 1.25rem;
+}
+
+.todo-outer-div ul {
+    margin-bottom: 1.5rem;
+}
+
+.todo-outer-div ul {
+    list-style-type: circle;
+    margin: 1rem 0;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner { 
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    height: 100%;
+    max-height: 50rem;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.popup-inner ul {
+    margin: 0;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}

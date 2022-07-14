@@ -24,4 +24,24 @@ export const tasks = [
     name: "Learn to cook",
     completed: false,
   },
+  {
+    id: 5,
+    name: "Learn to cook",
+    completed: false,
+  },
+  {
+    id: 6,
+    name: "Learn to cook",
+    completed: false,
+  },
+  {
+    id: 7,
+    name: "Learn to cook",
+    completed: false,
+  },
+  {
+    id: 8,
+    name: "Learn to cook",
+    completed: false,
+  },
 ];
